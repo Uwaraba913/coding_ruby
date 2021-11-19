@@ -1,6 +1,6 @@
 def tribonacci(n)
-  return if n < 1
-  a, b, c = 0, 0, 1 #0 0 1 1 2 4 7 13 23
+  return if n < 0
+  a, b, c = 1, 0, 5
   (n - 1).times { a, b, c = b, c, a + b + c}
   a
 end
