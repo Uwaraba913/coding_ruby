@@ -1,6 +1,6 @@
 n = 30
 a = 20
-result = [] 
+result = []
 for i in 1..n
     d = n%i
     if d == 0 && i <= a #答えが余りなし且つaよりも小さい数字
