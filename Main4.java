@@ -12,7 +12,7 @@ class Main {
 
     System.out.println("【車の情報】");
     car.printData();
-    // getFuelメソッドを用いて「ガソリン量：◯◯L」と出力してください
+
     System.out.println("ガソリン量：" + car.getFuel() + "L");
 
     System.out.println("-----------------");
