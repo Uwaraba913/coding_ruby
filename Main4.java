@@ -18,7 +18,6 @@ class Main {
     System.out.println("-----------------");
     System.out.print("給油する量を入力してください：");
     int litre = scanner.nextInt();
-    // chargeメソッドを呼び出して、引数にlitreを渡してください
     car.charge(litre);
 
     System.out.println("=================");
