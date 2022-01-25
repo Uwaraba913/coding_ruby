@@ -3,8 +3,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         Scanner sc = new Scanner(System.in);
         int[] n = new int[] {1, 3, 5, 6, 3, 2, 5, 23, 2};
         int sum = 0;
